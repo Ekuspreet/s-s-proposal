@@ -163,7 +163,7 @@ header img{
     height: 35vw;
 }
      */
-     @media screen and (max-width: 980px) {
+     /* @media screen and (max-width: 980px) {
     container {
         width: 100%;
     }
@@ -295,7 +295,99 @@ contributor scholarlink a {
     }
 }
 
+} */
+
+@media screen and (max-width: 480px) {
+    container {
+        width: 100%;
+    }
+
+    contributor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details {
+        align-items: center;
+    }
+
+    header img {
+        width: 80vw;
+        height: auto;
+    }
+
+    content h1 {
+        font-size: 16pt;
+    }
+
+    content p {
+        font-size: 14pt;
+        text-align: justify;
+    }
+
+    content ul,
+    content ol {
+        margin-left: 1em;
+    }
+
+    content b {
+        font-size: 16pt;
+    }
+
+    contribution heading {
+        font-size: 18pt;
+    }
+
+    contributor name {
+        font-size: 18pt;
+    }
+
+    contributor scholarlink a,
+    contributor p {
+        font-size: 12pt;
+        width: auto;
+    }
+
+    .image img {
+        height: 15em;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #ffc000;
+    }
 }
+
+/* Larger screens, tablets, and small desktops */
+@media screen and (min-width: 481px) and (max-width: 980px) {
+    container {
+        width: 100%;
+    }
+
+    contributor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details {
+        align-items: center;
+    }
+}
+
+/* Smaller tablets and below */
+@media screen and (max-width: 480px) {
+    container {
+        width: 100%;
+    }
+
+    contributor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details {
+        align-items: center;
+    }
+}
+
 
 </style>
 
